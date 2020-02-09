@@ -1,0 +1,41 @@
+.invite-join-container {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 26rem;
+    padding: 0 0.5rem;
+}
+
+.main-header-container {
+    margin-bottom: 2rem;
+}
+
+.main-header-container h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.form-container {
+    padding: 2rem 1rem;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.intro-msg-container {
+    margin-bottom: 2rem;
+    text-align: justify-all;
+    color: #5F5F5F;
+    font-weight: 100;
+}
+
+.invite-join-text-box-container {
+    margin-bottom: 1.5rem;
+}
+
+
+.actions-container {
+    margin-bottom: 3rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
