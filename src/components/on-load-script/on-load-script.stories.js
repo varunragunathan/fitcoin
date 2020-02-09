@@ -1,3 +1,4 @@
+/*
 // @ts-nocheck
 import React from 'react';
 import OnLoadScript from './index';
@@ -12,3 +13,4 @@ export const First = () => <OnLoadScript />;
 export const Second = () => (
     <OnLoadScript />
 );
+*/
