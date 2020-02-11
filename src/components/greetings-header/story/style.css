@@ -1,0 +1,12 @@
+div#root {
+    background-color: #EFEFEF;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+.story-container {
+    background-color: #FFF;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 90vh;
+}
