@@ -17,8 +17,10 @@ export const AWithDynamicValue = () => {
     const count = number('Coin Count', 100);
     const doFormat = boolean('Should format', false);
     return (
-        <div className='story-container'>
-            <GreetingsHeader userName={userName} coinCount={count} doFormat={doFormat}/>
+        <div className='greetings-header-main-container'>
+            <div className='story-container'>
+                <GreetingsHeader userName={userName} coinCount={count} doFormat={doFormat}/>
+            </div>
         </div>
     );
 };
