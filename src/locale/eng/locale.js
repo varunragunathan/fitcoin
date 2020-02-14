@@ -6,5 +6,6 @@ module.exports.data = {
     yourEmail: 'Email',
     back: 'BACK',
     join: 'JOIN',
-    requestAnInvite: 'Request an Invite'
+    requestAnInvite: 'Request an Invite',
+    logToday: 'LOG TODAY'
 };
