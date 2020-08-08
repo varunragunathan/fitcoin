@@ -9,11 +9,11 @@ module.exports.data = {
     requestAnInvite: 'Request an Invite',
     logToday: 'LOG TODAY',
     challenge: {
-        run: 'Running Challenge',
-        'push-up': 'Push up Challenge',
-        walk: 'Walking Challenge',
-        meditate: 'Meditate Challenge'
+        run: 'RUNNING CHALLENGE',
+        'push-up': 'PUSH-UP CHALLENGE',
+        walk: 'WALKING CHALLENGE',
+        meditate: 'MEDITATE CHALLENGE'
     },
     logGoal: 'LOG YOUR GOALS',
-    today: 'TODAY'
+    today: 'Today'
 };

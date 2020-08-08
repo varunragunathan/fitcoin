@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: center;
     padding-left: 2rem;
-    background-color: #D6D6D6;
-    background-image: -webkit-linear-gradient(180deg, #F4F4F4 50%, #D6D6D6 50%);
+    background-color: #E6E6E6;
+    background-image: -webkit-linear-gradient(180deg, #F1F1F1 50%, #E6E6E6 50%);
     min-height: 150px;
 }
 
@@ -14,6 +14,7 @@
     justify-items: center;
     font-size: 32px;
     text-align: center;
+    color: black;
 }
 
 .trends-title-highlight {

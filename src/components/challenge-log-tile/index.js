@@ -41,7 +41,7 @@ const ChallengeLogTile = ({id, type='push-up', completed=false}) => {
                 <div>
                     {locale.challenge[type]}
                 </div>
-                <div>
+                <div className='action-icon-container'>
                     <IconButton aria-label="add" disabled={completed} >
                         <IoIosAdd />
                     </IconButton>
