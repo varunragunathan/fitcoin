@@ -1,0 +1,24 @@
+.mainContainer {
+
+}
+
+.timeline-header {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+}
+
+.timeline-info {
+    text-align: center;
+    position: relative;
+    top: -20px;
+    font-weight: 100;
+    color: #6F6F6F;
+}
+
+.challenges-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

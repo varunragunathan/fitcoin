@@ -7,5 +7,13 @@ module.exports.data = {
     back: 'BACK',
     join: 'JOIN',
     requestAnInvite: 'Request an Invite',
-    logToday: 'LOG TODAY'
+    logToday: 'LOG TODAY',
+    challenge: {
+        run: 'Running Challenge',
+        'push-up': 'Push up Challenge',
+        walk: 'Walking Challenge',
+        meditate: 'Meditate Challenge'
+    },
+    logGoal: 'LOG YOUR GOALS',
+    today: 'TODAY'
 };

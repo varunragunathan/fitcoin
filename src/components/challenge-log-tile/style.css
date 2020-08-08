@@ -1,14 +1,16 @@
 .challenge-log-tile-container {
-    max-width: 26rem;
+    max-width: 25rem;
+    width: 100%;
     display: flex;
     background-color: #EFEFEF;
     align-items: center;
     height: 4rem;
     border-radius: 5px;
+    margin: 0 auto .25rem;
 }
 
 .log-tile-icon-container {
-    padding: 0 8px;
+    padding: 0 1rem;
 }
 
 .log-tile-body {
