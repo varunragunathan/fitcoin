@@ -15,5 +15,6 @@ module.exports.data = {
         meditate: 'MEDITATE CHALLENGE'
     },
     logGoal: 'LOG YOUR GOALS',
-    today: 'Today'
+    today: 'Today',
+    home: 'Home'
 };
