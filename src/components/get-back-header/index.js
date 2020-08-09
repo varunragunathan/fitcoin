@@ -5,16 +5,9 @@ import CoinCount from "../coin-count";
 import { makeStyles } from "@material-ui/core/styles";
 import Avatar from "@material-ui/core/Avatar";
 import { deepOrange } from "@material-ui/core/colors";
-import SvgIcon from '@material-ui/core/SvgIcon';
+import { MdHome}  from "react-icons/md";
+import {IconContext} from "react-icons";
 const locale = require('../../locale/eng/locale').data;
-
-const HomeIcon = (props) => {
-    return (
-        <SvgIcon {...props}>
-            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
-        </SvgIcon>
-    );
-};
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -34,13 +27,17 @@ const GetBackHeader = ({userName, coinCount, doFormat=false }) => {
     return (
         <div className='get-back-header-container'>
             <div className='homepage-link-container'>
-                <HomeIcon style={{ color: 'var(--link-color-primary)' }} />
+                <IconContext.Provider value={{ color: 'var(--link-color-primary)', size: '26', className: 'coin-icon-container'}}>
+                    <div>
+                        <MdHome />
+                    </div>
+                </IconContext.Provider>
                 <span className='home-page-link'>{locale.home}</span>
             </div>
-            <div className='get-back-user-name-container'>
+            {/*<div className='get-back-user-name-container'>
                 <Avatar alt={userName} src="/broken-image.jpg" className={classes.orange} />
                 <div className='get-back-user-name'>{userName}</div>
-            </div>
+            </div>*/}
             <div>
                 <CoinCount coinCount={coinCount} doFormat={doFormat}/>
             </div>
