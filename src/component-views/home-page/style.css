@@ -1,0 +1,26 @@
+.mainContainer {
+
+}
+
+.timeline-header {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+}
+
+.timeline-info {
+    text-align: center;
+    position: relative;
+    top: -10px;
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--text-color-secondary);
+}
+
+.challenges-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 .5rem;
+}

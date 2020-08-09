@@ -1,0 +1,12 @@
+.greetings-header-main-container {
+    background-color: var(--bg-color-secondary);
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+.story-container {
+    background-color: #FFF;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 90vh;
+}

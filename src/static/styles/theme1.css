@@ -1,3 +1,92 @@
+/*-----PREDEFINED VARIABLES START-----*/
+:root {
+    --bg-color-primary: #FFF;
+    --bg-color-secondary: #E6E6E6;
+    --bg-color-tertiary: #DEDEDE;
+    --text-color-primary: #333;
+    --text-color-primary-highlight: RED;
+    --text-color-secondary: #6F6F6F;
+
+    --link-color-primary: #1976D2
+}
+/*-----PREDEFINED VARIABLES END-----*/
+
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background-color: var(--bg-color-primary);
+    margin: 0;
+    color: var(--text-color-primary);
+}
+.main-container {
+
+}
+
+/*-----CHALLENGE VIEW CSS START-----*/
+.challenge-main-container {
+    text-align: center;
+}
+
+.challenge-body-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.challenge-body-top {}
+
+.title-container {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.challenge-icon-container {
+    margin-bottom: 1rem;
+}
+
+.challenge-view-log-icon {}
+
+.target-container {
+    margin-bottom: 1.5rem;
+}
+
+.challenge-target-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.challenge-daily-target {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.challenge-daily-target-unit {
+    font-size: 1rem;
+    font-weight: normal;
+}
+.challenge-input-container {
+    margin-bottom: 2rem;
+}
+.challenge-input-container input.MuiOutlinedInput-input {
+    text-align: center;
+}
+
+.challenge-submit-button-container {}
+
+.challenge-submit-button-container .MuiButton-root {
+    line-height: 6;
+}
+
+.challenge-submit-button-container .MuiButton-outlinedSizeLarge {
+    padding: 0 4rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .challenge-body-top {
+        min-height: calc(100vh - 300px);
+    }
+}
+
+/*-----CHALLENGE VIEW CSS END-----*/

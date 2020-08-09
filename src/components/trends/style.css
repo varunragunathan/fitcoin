@@ -1,0 +1,23 @@
+.user-trends-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+    background-color: var(--bg-color-secondary);
+    background-image: -webkit-linear-gradient(180deg, var(--bg-color-primary) 50%, var(--bg-color-secondary) 50%);
+    min-height: 150px;
+}
+
+.user-trend-item {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 32px;
+    text-align: center;
+    color: var(--text-color-primary);
+}
+
+.trends-title-highlight {
+    color: var(--text-color-primary-highlight);
+    font-weight: bold;
+}

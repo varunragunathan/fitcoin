@@ -1,0 +1,24 @@
+.challenge-input-container.run-input-container, .challenge-input-container.walk-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.challenge-input-entry-container {
+    display: flex;
+}
+
+.challenge-input-entry-container.distance-container {
+    width: 10rem;
+}
+
+.challenge-input-entry-container.time-container {
+    width: 4rem;
+}
+
+.challenge-input-entry-container.distance-container .MuiFormHelperText-contained {
+    text-align: right;
+}
+.challenge-input-entry-container.time-container .MuiFormHelperText-contained {
+    text-align: right;
+}

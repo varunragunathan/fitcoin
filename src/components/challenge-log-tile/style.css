@@ -1,0 +1,25 @@
+.challenge-log-tile-container {
+    max-width: 25rem;
+    width: 100%;
+    display: flex;
+    background-color: var(--bg-color-secondary);
+    align-items: center;
+    height: 5rem;
+    border-radius: 5px;
+    margin: 0 auto .25rem;
+}
+
+.log-tile-icon-container {
+    padding: 0 1rem;
+}
+
+.log-tile-body {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-icon-container {
+    padding-right: 1rem;
+}
