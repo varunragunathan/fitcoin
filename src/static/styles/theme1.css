@@ -1,9 +1,20 @@
+/*-----PREDEFINED VARIABLES START-----*/
+:root {
+    --bg-color-primary: #FFF;
+    --bg-color-secondary: #E6E6E6;
+    --bg-color-tertiary: #DEDEDE;
+    --text-color-primary: #333;
+    --text-color-primary-highlight: RED;
+    --text-color-secondary: #6F6F6F;
+}
+/*-----PREDEFINED VARIABLES END-----*/
+
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: #F1F1F1;
+    background-color: var(--bg-color-primary);
     margin: 0;
-    color: #3F3F3F;
+    color: var(--text-color-primary);
 }
 .main-container {}

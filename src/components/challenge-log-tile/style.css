@@ -2,7 +2,7 @@
     max-width: 25rem;
     width: 100%;
     display: flex;
-    background-color: #E6E6E6;
+    background-color: var(--bg-color-secondary);
     align-items: center;
     height: 5rem;
     border-radius: 5px;

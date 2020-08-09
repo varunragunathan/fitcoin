@@ -8,7 +8,7 @@ import numeral from 'numeral';
 const CoinCount = ({coinCount, doFormat=false }) => {
     return (
         <div className='coin-count-container'>
-            <IconContext.Provider value={{ color: '#3A3A3A', size: '32', className: 'coin-icon-container'}}>
+            <IconContext.Provider value={{ color: 'var(--text-color-primary: #FFF;)', size: '32', className: 'coin-icon-container'}}>
                 <div>
                     <AiOutlineDollar />
                 </div>

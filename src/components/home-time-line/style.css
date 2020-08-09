@@ -20,7 +20,7 @@
 .day-title.active {
     width: 60px;
     height: 60px;
-    background: #FFF;
+    background: var(--bg-color-secondary);
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
