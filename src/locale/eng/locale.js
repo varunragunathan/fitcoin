@@ -16,5 +16,13 @@ module.exports.data = {
     },
     logGoal: 'LOG YOUR GOALS',
     today: 'Today',
-    home: 'Home'
+    home: 'Home',
+    pushUpChallenge: {
+        title: 'Log your Push-Ups',
+    },
+    dailyTarget: 'DAILY TARGET',
+    countInputHelper: 'ENTER COUNT',
+    count: 'Count',
+    log: 'LOG'
+
 };

@@ -1,12 +1,12 @@
 // @ts-nocheck
 import React from 'react';
-import HomePage from './index';
+import RunLog from './index';
 import '../../static/styles/theme1.css';
 import {withKnobs, text, number, boolean} from "@storybook/addon-knobs";
 
 export default {
-    title: 'HomePage',
-    component: HomePage,
+    title: 'Run Logger',
+    component: RunLog,
     decorators: [withKnobs]
 };
 
@@ -50,5 +50,5 @@ const viewModel = {
 
 // Knobs as dynamic variables.
 export const ADefaultView = () => {
-    return <HomePage viewModel={viewModel}/>;
+    return <RunLog viewModel={viewModel}/>;
 };
