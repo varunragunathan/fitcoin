@@ -20,9 +20,24 @@ module.exports.data = {
     pushUpChallenge: {
         title: 'Log your Push-Ups',
     },
+    runChallenge: {
+        title: 'Log your Run',
+        distanceEntryTitle: 'DISTANCE',
+        timeEntryTitle: 'TIME'
+    },
+    walkChallenge: {
+        title: 'Log your Walk',
+        distanceEntryTitle: 'DISTANCE',
+        timeEntryTitle: 'TIME'
+    },
+    meditationChallenge: {
+        title: 'Log your Meditation',
+        inputTitle: 'TIME'
+    },
     dailyTarget: 'DAILY TARGET',
     countInputHelper: 'ENTER COUNT',
     count: 'Count',
+    minutesShortHand: 'min',
     log: 'LOG'
 
 };

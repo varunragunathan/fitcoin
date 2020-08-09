@@ -5,7 +5,7 @@ import HomeTimeLine from "../../components/home-time-line";
 import ChallengeLogTile from "../../components/challenge-log-tile";
 import './style.css';
 import GetBackHeader from "../../components/get-back-header";
-import { FaRunning }  from "react-icons/fa";
+import { FaWalking }  from "react-icons/fa";
 import { GiSpikedHalo } from "react-icons/gi";
 import { IoIosAdd }  from "react-icons/io";
 import { Types } from '../../common/constants/exercise-types';
@@ -15,18 +15,18 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 const locale = require('../../locale/eng/locale').data;
 
-const RunLog = ({viewModel}) => {
+const WalkLog = ({viewModel}) => {
     return (
         <div className='challenge-main-container'>
             <GetBackHeader userName={viewModel.userName} coinCount={viewModel.count} doFormat={viewModel.doFormat}/>
             <div className='challenge-body-container'>
                 <div className='challenge-body-top'>
                     <div className='title-container'>
-                        {locale.runChallenge.title}
+                        {locale.walkChallenge.title}
                     </div>
                     <div className='challenge-icon-container'>
                         <IconContext.Provider value={{ color: 'var(--text-color-primary)', size: '6rem', className: 'challenge-view-log-icon'}}>
-                            <FaRunning />
+                            <FaWalking />
                         </IconContext.Provider>
                     </div>
                     <div className='target-container'>
@@ -35,12 +35,12 @@ const RunLog = ({viewModel}) => {
                         <span className='challenge-daily-target'>{viewModel.target && viewModel.target.dailyTarget && viewModel.target.dailyTarget.count || '40'}</span>
                         <span className='challenge-daily-target-unit'>&nbsp;{viewModel.target && viewModel.target.dailyTarget && viewModel.target.dailyTarget.unit || 'km'}s</span>
                     </div>
-                    <div className='challenge-input-container run-input-container'>
+                    <div className='challenge-input-container walk-input-container'>
                         <div className='challenge-input-entry-container distance-container'>
-                            <TextField label={locale.runChallenge.distanceEntryTitle} variant="outlined" type='number' helperText={viewModel.target.dailyTarget.unit || 'km'}/>
+                            <TextField label={locale.walkChallenge.distanceEntryTitle} variant="outlined" type='number' helperText={viewModel.target.dailyTarget.unit || 'km'}/>
                         </div>
                         <div className='challenge-input-entry-container time-container'>
-                            <TextField label={locale.runChallenge.timeEntryTitle} variant="outlined" type='number' helperText={locale.minutesShortHand}/>
+                            <TextField label={locale.walkChallenge.timeEntryTitle} variant="outlined" type='number' helperText={locale.minutesShortHand}/>
                         </div>
                     </div>
                 </div>
@@ -54,4 +54,4 @@ const RunLog = ({viewModel}) => {
     );
 };
 
-export default RunLog;
+export default WalkLog;

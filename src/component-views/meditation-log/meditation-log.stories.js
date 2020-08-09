@@ -1,12 +1,12 @@
 // @ts-nocheck
 import React from 'react';
-import RunLog from './index';
+import MeditationLog from './index';
 import '../../static/styles/theme1.css';
 import {withKnobs, text, number, boolean} from "@storybook/addon-knobs";
 
 export default {
-    title: 'Run Logger',
-    component: RunLog,
+    title: 'Meditation Logger',
+    component: MeditationLog,
     decorators: [withKnobs]
 };
 
@@ -16,14 +16,13 @@ const viewModel = {
     doFormat: boolean('Should format', false),
     target: {
         dailyTarget: {
-            count: '5',
-            time: '',
-            unit: 'km'
+            count: '15',
+            unit: 'min'
         }
     }
 };
 
 // Knobs as dynamic variables.
 export const ADefaultView = () => {
-    return <RunLog viewModel={viewModel}/>;
+    return <MeditationLog viewModel={viewModel}/>;
 };

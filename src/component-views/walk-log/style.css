@@ -1,4 +1,4 @@
-.challenge-input-container.run-input-container {
+.challenge-input-container.run-input-container, .challenge-input-container.walk-input-container {
     display: flex;
     justify-content: center;
     align-items: center;
