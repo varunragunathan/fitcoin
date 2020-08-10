@@ -1,0 +1,21 @@
+.trends-header-container {
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--header-bg-color-secondary);
+}
+
+.trends-title-container {
+    flex: 1;
+    position: relative;
+    left: -20px;
+    font-size: 1.75rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.trends-header-container .homepage-link-container {
+    flex: 0;
+}
+

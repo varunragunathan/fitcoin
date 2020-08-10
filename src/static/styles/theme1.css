@@ -2,7 +2,10 @@
 :root {
     --bg-color-primary: #FFF;
     --bg-color-secondary: #E6E6E6;
+    --bg-color-secondary--light: #F9F9F9;
     --bg-color-tertiary: #DEDEDE;
+    --header-bg-color-primary: #E6E6E6;
+    --header-bg-color-secondary: #C3E4F7;
     --text-color-primary: #333;
     --text-color-primary-highlight: RED;
     --text-color-secondary: #6F6F6F;

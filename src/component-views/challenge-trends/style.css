@@ -1,0 +1,27 @@
+.leaderboard-info-container {
+    margin: 1rem 0;
+    text-align: center;
+    line-height: 3rem;
+    font-size: .875rem;
+}
+
+.challenge-trends-container {
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--header-bg-color-secondary);
+}
+
+.challenge-trend-item-container {
+    margin: 0 1rem;
+}
+
+.challenge-trend-item-container .MuiInputBase-input.Mui-disabled{
+    color: var(--text-color-primary);
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.leaderboard-container {
+
+}

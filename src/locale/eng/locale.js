@@ -38,6 +38,8 @@ module.exports.data = {
     countInputHelper: 'ENTER COUNT',
     count: 'Count',
     minutesShortHand: 'min',
-    log: 'LOG'
+    log: 'LOG',
+    trends: 'Trends',
+    leaderboard: 'LEADERBOARD'
 
 };

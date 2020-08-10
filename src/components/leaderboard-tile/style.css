@@ -1,0 +1,36 @@
+.leaderboard-tile-container {
+    max-width: 25rem;
+    width: 100%;
+    display: flex;
+    background-color: var(--bg-color-secondary--light);
+    /*border: 3px solid var(--bg-color-secondary);*/
+    align-items: center;
+    height: 5rem;
+    border-radius: 5px;
+    margin: 0 auto .25rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.leaderboard-tile-container.active-tile {
+    background-color: var(--bg-color-secondary);
+}
+
+.leaderboard-tile-index-container {
+    padding: 0 4px 0;
+    min-width: 4.5rem;
+    text-align: center;
+    color: var(--text-color-secondary);
+}
+
+.active-tile .leaderboard-tile-index-container {
+    color: var(--text-color-primary);
+}
+
+.leaderboard-tile-body-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
