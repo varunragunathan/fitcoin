@@ -6,7 +6,7 @@ import './style.css'
 import { withKnobs, text, number, boolean } from "@storybook/addon-knobs";
 
 export default {
-    title: 'GetBackHeader',
+    title: 'Get Back Header',
     component: GetBackHeader,
     decorators: [withKnobs]
 };
