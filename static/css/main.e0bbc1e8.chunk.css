@@ -1,0 +1,391 @@
+.greeting-header-container {
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color-secondary);
+}
+
+.user-name-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-name {
+    margin-left: .75rem;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+.coin-count-container {
+    display: flex;
+    align-items: center;
+}
+.coin-icon-container {
+    margin-right: .175rem;
+}
+.coin-count-container {
+    vertical-align: center;
+}
+.coin-count-label {
+    font-weight: bold;
+    font-size: 0.875rem;
+    margin-top: -0.25rem;
+}
+.user-trends-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+    background-color: var(--bg-color-secondary);
+    background-image: -webkit-linear-gradient(180deg, var(--bg-color-primary) 50%, var(--bg-color-secondary) 50%);
+    min-height: 150px;
+}
+
+.user-trend-item {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 32px;
+    text-align: center;
+    color: var(--text-color-primary);
+}
+
+.trends-title-highlight {
+    color: var(--text-color-primary-highlight);
+    font-weight: bold;
+}
+.current-week-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day-title-container {
+    width: 50px;
+    height: 50px;
+    margin: 0 .5rem 0;
+}
+
+.day-title {
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 2;
+    text-align: center;
+}
+
+.day-title.active {
+    width: 60px;
+    height: 60px;
+    background: var(--bg-color-secondary);
+    border-radius: 50%;
+}
+.challenge-log-tile-container {
+    max-width: 25rem;
+    width: 100%;
+    display: flex;
+    background-color: var(--bg-color-secondary);
+    align-items: center;
+    height: 5rem;
+    border-radius: 5px;
+    margin: 0 auto .25rem;
+}
+
+.log-tile-icon-container {
+    padding: 0 1rem;
+}
+
+.log-tile-body {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-icon-container {
+    padding-right: 1rem;
+}
+.mainContainer {
+
+}
+
+.timeline-header {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+}
+
+.timeline-info {
+    text-align: center;
+    position: relative;
+    top: -10px;
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--text-color-secondary);
+}
+
+.challenges-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 .5rem;
+}
+/*-----PREDEFINED VARIABLES START-----*/
+:root {
+    --bg-color-primary: #FFF;
+    --bg-color-secondary: #E6E6E6;
+    --bg-color-tertiary: #DEDEDE;
+    --text-color-primary: #333;
+    --text-color-primary-highlight: RED;
+    --text-color-secondary: #6F6F6F;
+
+    --link-color-primary: #1976D2
+}
+/*-----PREDEFINED VARIABLES END-----*/
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #FFF;
+    background-color: var(--bg-color-primary);
+    margin: 0;
+    color: #333;
+    color: var(--text-color-primary);
+}
+.main-container {
+
+}
+
+/*-----CHALLENGE VIEW CSS START-----*/
+.challenge-main-container {
+    text-align: center;
+}
+
+.challenge-body-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.challenge-body-top {}
+
+.title-container {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.challenge-icon-container {
+    margin-bottom: 1rem;
+}
+
+.challenge-view-log-icon {}
+
+.target-container {
+    margin-bottom: 1.5rem;
+}
+
+.challenge-target-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.challenge-daily-target {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.challenge-daily-target-unit {
+    font-size: 1rem;
+    font-weight: normal;
+}
+.challenge-input-container {
+    margin-bottom: 2rem;
+}
+.challenge-input-container input.MuiOutlinedInput-input {
+    text-align: center;
+}
+
+.challenge-submit-button-container {}
+
+.challenge-submit-button-container .MuiButton-root {
+    line-height: 6;
+}
+
+.challenge-submit-button-container .MuiButton-outlinedSizeLarge {
+    padding: 0 4rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .challenge-body-top {
+        min-height: calc(100vh - 300px);
+    }
+}
+
+/*-----CHALLENGE VIEW CSS END-----*/
+
+.meditation-challenge .challenge-input-container .MuiFormHelperText-contained {
+    text-align: right;
+}
+.get-back-header-container {
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color-secondary);
+}
+
+.homepage-link-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.get-back-user-name-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.get-back-user-name {
+    margin-left: .75rem;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+
+.home-page-link {
+    padding-top: 2px;
+    line-height: 1rem;
+    color: var(--link-color-primary);
+}
+.invite-join-container {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 26rem;
+    padding: 0 0.5rem;
+}
+
+.main-header-container {
+    margin-bottom: 2rem;
+}
+
+.main-header-container h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.form-container {
+    padding: 2rem 1rem;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.intro-msg-container {
+    margin-bottom: 2rem;
+    text-align: justify-all;
+    color: #5F5F5F;
+    font-weight: 100;
+}
+
+.invite-join-text-box-container {
+    margin-bottom: 1.5rem;
+}
+
+
+.actions-container {
+    margin-bottom: 3rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.challenge-input-container.run-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.challenge-input-entry-container {
+    display: flex;
+}
+
+.challenge-input-entry-container.distance-container {
+    width: 10rem;
+}
+
+.challenge-input-entry-container.time-container {
+    width: 4rem;
+}
+
+.challenge-input-entry-container.distance-container .MuiFormHelperText-contained {
+    text-align: right;
+}
+.challenge-input-entry-container.time-container .MuiFormHelperText-contained {
+    text-align: right;
+}
+.challenge-input-container.run-input-container, .challenge-input-container.walk-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.challenge-input-entry-container {
+    display: flex;
+}
+
+.challenge-input-entry-container.distance-container {
+    width: 10rem;
+}
+
+.challenge-input-entry-container.time-container {
+    width: 4rem;
+}
+
+.challenge-input-entry-container.distance-container .MuiFormHelperText-contained {
+    text-align: right;
+}
+.challenge-input-entry-container.time-container .MuiFormHelperText-contained {
+    text-align: right;
+}
+.greetings-header-main-container {
+    background-color: var(--bg-color-secondary);
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+.story-container {
+    background-color: #FFF;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 90vh;
+}
+.greetings-header-main-container {
+    background-color: #EFEFEF;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+.story-container {
+    background-color: #FFF;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 90vh;
+}
+.greetings-header-main-container {
+    background-color: #EFEFEF;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+.story-container {
+    background-color: #FFF;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+/*# sourceMappingURL=main.e0bbc1e8.chunk.css.map*/
