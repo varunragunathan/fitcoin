@@ -1,0 +1,15 @@
+.coin-count-container {
+  display: flex;
+  align-items: center;
+}
+.coin-icon-container {
+  margin-right: 0.175rem;
+}
+.coin-count-container {
+  vertical-align: center;
+}
+.coin-count-label {
+  font-weight: bold;
+  font-size: 0.875rem;
+  margin-top: -0.25rem;
+}
