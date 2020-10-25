@@ -14,11 +14,11 @@ const SVGIcons = () => {
             cx="50"
             cy="50"
             r="12"
-            stroke-width="3"
+            strokeWidth="3"
             stroke="#ff5722"
-            stroke-dasharray="18.84955592153876 18.84955592153876"
+            strokeDasharray="18.84955592153876 18.84955592153876"
             fill="none"
-            stroke-linecap="round"
+            strokeLinecap="round"
           >
             <animateTransform
               attributeName="transform"
@@ -33,12 +33,12 @@ const SVGIcons = () => {
             cx="50"
             cy="50"
             r="8"
-            stroke-width="3"
+            strokeWidth="3"
             stroke="#e6e6e6"
-            stroke-dasharray="12.566370614359172 12.566370614359172"
-            stroke-dashoffset="12.566370614359172"
+            strokeDasharray="12.566370614359172 12.566370614359172"
+            strokeDashoffset="12.566370614359172"
             fill="none"
-            stroke-linecap="round"
+            strokeLinecap="round"
           >
             <animateTransform
               attributeName="transform"
@@ -59,11 +59,11 @@ const SVGIcons = () => {
             cx="50"
             cy="50"
             r="25"
-            stroke-width="3"
+            strokeWidth="3"
             stroke="#ff5722"
-            stroke-dasharray="39.269908169872416 39.269908169872416"
+            strokeDasharray="39.269908169872416 39.269908169872416"
             fill="none"
-            stroke-linecap="round"
+            strokeLinecap="round"
           >
             <animateTransform
               attributeName="transform"
@@ -78,12 +78,12 @@ const SVGIcons = () => {
             cx="50"
             cy="50"
             r="21"
-            stroke-width="3"
+            strokeWidth="3"
             stroke="#e6e6e6"
-            stroke-dasharray="32.98672286269283 32.98672286269283"
-            stroke-dashoffset="32.98672286269283"
+            strokeDasharray="32.98672286269283 32.98672286269283"
+            strokeDashoffset="32.98672286269283"
             fill="none"
-            stroke-linecap="round"
+            strokeLinecap="round"
           >
             <animateTransform
               attributeName="transform"

@@ -1,0 +1,14 @@
+.fit-coin--loading-header {
+  text-align: center;
+  color: #6f6f6f;
+}
+
+.spinner-large-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  height: 90vh;
+}

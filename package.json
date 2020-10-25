@@ -4,26 +4,27 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.5",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.13",
     "numeral": "^2.0.6",
     "prettier": "^2.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-icons": "^3.9.0",
+    "react-icons": "^3.11.0",
     "react-responsive-carousel": "^3.2.9",
     "react-scripts": "3.4.3",
     "source-map-explorer": "^2.5.0"
   },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "start": "HTTPS=true react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "clean": "clear && printf '\\33c\\e[3J'",
     "eject": "react-scripts eject",
+    "start": "HTTPS=true react-scripts start",
+    "test": "react-scripts test",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "deploy-storybook-to-gh": "npm run deploy-storybook -- --branch=gh-pages"
@@ -44,13 +45,13 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.3.12",
-    "@storybook/addon-knobs": "^5.3.12",
-    "@storybook/addon-links": "^5.3.12",
-    "@storybook/addon-storysource": "^5.3.12",
-    "@storybook/addons": "^5.3.12",
-    "@storybook/preset-create-react-app": "^1.5.2",
-    "@storybook/react": "^5.3.12"
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-knobs": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/addon-storysource": "^6.0.21",
+    "@storybook/addons": "^6.0.21",
+    "@storybook/preset-create-react-app": "^3.1.4",
+    "@storybook/react": "^6.0.21"
   },
   "husky": {
     "hooks": {
